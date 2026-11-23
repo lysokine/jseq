@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "jseq: junction sequencing for knock-in integration"
+message: >-
+  If you use this software, please cite it together with CRIS.py, whose
+  anchor-spacing counting it reproduces (see references).
+type: software
+authors:
+  - family-names: Gao
+    given-names: Shihong
+    alias: lysokine
+    affiliation: "Janelia Research Campus, Howard Hughes Medical Institute"
+license: GPL-3.0
+repository-code: "https://github.com/lysokine/jseq"
+abstract: >-
+  Measures how often a knock-in junction has its designed length, from amplicon
+  sequencing of the 5' and 3' junctions. Provides CRIS.py-equivalent anchor-spacing
+  counting, and a two-landmark mode for junctions whose own sequence corrupts the
+  base calls downstream of them, with per-tile quality control.
+references:
+  - type: article
+    title: "CRIS.py: A Versatile and High-throughput Analysis Program for CRISPR-based Genome Editing"
+    authors:
+      - family-names: Connelly
+        given-names: "Jon P."
+      - family-names: Pruett-Miller
+        given-names: "Shondra M."
+    journal: "Scientific Reports"
+    volume: 9
+    start: 4194
+    year: 2019
+    doi: 10.1038/s41598-019-40896-w
+    repository-code: "https://github.com/patrickc01/CRIS.py"

@@ -1,0 +1,13 @@
+# Conda environment for the junction-sequencing pipeline.
+# Create it (on a compute node, not a login node):
+#   mamba env create -f environment.yml
+# environment.lock.yml next to this file records the exact versions used for the published analysis.
+name: junctionseq
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - numpy>=2
+  - matplotlib>=3.8
+  - fastp=1.3.6        # the version used to merge the 3' read pairs

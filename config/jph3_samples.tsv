@@ -1,0 +1,9 @@
+# The JPH3 FASTQ files are from Benedetti et al., Cell 188 (2025) and are not distributed
+# here. Put them under data/jph3/ or edit these paths to point at your copy.
+library	sample	culture	amplicon	r1	r2
+5p_rep1	rep1	1	JPH3_5p	data/jph3/ET_DNA_11012023_B_5Rev1_1.fastq	
+5p_rep2	rep2	2	JPH3_5p	data/jph3/ET_DNA_11082023_E_5Rev2_1.fastq	
+5p_rep3	rep3	3	JPH3_5p	data/jph3/ET_DNA_11082023_F_5Rev3_1.fastq	
+3p_rep1	rep1	1	JPH3_3p	data/jph3/ET_DNA_11012023_B_3Rev1_1.fastq	
+3p_rep2	rep2	2	JPH3_3p	data/jph3/ET_DNA_11082023_E_3Rev2_1.fastq	
+3p_rep3	rep3	3	JPH3_3p	data/jph3/ET_DNA_11082023_F_3Rev3_1.fastq	

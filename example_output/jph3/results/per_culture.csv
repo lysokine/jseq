@@ -1,0 +1,9 @@
+amplicon,culture,n_libraries,libraries,mean_pct_net_zero,sd_between_libraries,n_cultures,sd_between_cultures,sem_between_cultures
+JPH3_5p,1,1,5p_rep1,70.2078,,,,
+JPH3_5p,2,1,5p_rep2,74.7758,,,,
+JPH3_5p,3,1,5p_rep3,75.1215,,,,
+JPH3_5p,ALL,,,73.3684,,3,2.7426,1.5834
+JPH3_3p,1,1,3p_rep1,66.9699,,,,
+JPH3_3p,2,1,3p_rep2,68.0259,,,,
+JPH3_3p,3,1,3p_rep3,69.1372,,,,
+JPH3_3p,ALL,,,68.0443,,3,1.0838,0.6257

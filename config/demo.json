@@ -1,0 +1,63 @@
+{
+ "project": "Demo",
+ "_about": "A synthetic project used by the test suite. The sequences are random; the layout matches a real two-junction experiment. Regenerate with `python config/make_demo.py`.",
+ "samples": "demo_samples.tsv",
+ "qc": {
+  "min_reads_per_tile_pooled": 1000,
+  "min_reads_per_tile_library": 5000,
+  "max_tile_spread_pts": 2.0,
+  "plateau_top_n": 8,
+  "plateau_tolerance_pts": 1.0
+ },
+ "amplicons": {
+  "Demo_5p": {
+   "description": "Synthetic landmark-mode amplicon, 290 bp, cut between index 149 and 150.",
+   "reference": "TTGCCTATCCGCTGGCGAGAAGTGGTGGACGCTTATGAGTTTTGTGATAGACCACGGGTCAATGAGACAAAGTCGAGACAAGACCATTGTGGTAAAAGTTCGCAGTTGGGTATTGTCCGAGCAATCCGCTATCCTTAAGTAGACACGGTCTCGTGCCCACCATATACTGTTATGAGACATTGGATTTGCCAGCAATGTTAAGCGCCGCCATTTCTAGAGATTTAGGTTGGAGGTGGTGGTCGACGACTGTGGTTAGTCGTGGCGCTGGCACCCAATTGGCGTTGTTCACT",
+   "mode": "landmark",
+   "strands": "forward",
+   "anchor": "AGTCGAGACAAGACCATTGT",
+   "landmark1": {
+    "seq": "TGTTAAGCGCCGCCATTTCTAGAGATTTAGGTTGGAGGTGGTGGTCGACG",
+    "offsets": [
+     -60,
+     60
+    ],
+    "min_match": 40
+   },
+   "landmark2": {
+    "seq": "GTGGTTAGTCGTGGCGCTGGCACCCAATTGGCGTTGTTCACT",
+    "deletion_offsets": [
+     -190,
+     -56
+    ],
+    "min_match": 33,
+    "confirm": "veto",
+    "min_base_quality": 30
+   },
+   "tile_filter": "plateau"
+  },
+  "Demo_3p": {
+   "description": "Synthetic spacing-mode amplicon, 225 bp.",
+   "reference": "CCCTAAACGCGGAAACAGATCTCCTCACACCCCGTACCAAAATCATGACCCGTTCACGTCGACGTCGTCCCGTACCGCGGGCTGACAGCTCCCAAGCAATGCGTAAGTGCATATCGTGCGTTGATGAGGGCTCTACAGCGTGCCAGGTGCAAGACGATTGTCCGACGACGCTTGAGTGCTGAGAGTTACTACGACGACCGATAGAATACGTGCATAGTGCCGTGT",
+   "mode": "spacing",
+   "strands": "forward",
+   "anchor": "GCAATGCGTAAGTGCATATC",
+   "end_anchor": "GAATACGTGCATAGTGCCGT",
+   "designed_junction": "AAGACGATTGTCCGACGACGCTTGAGTGCTGAGAGTTACT",
+   "tile_filter": "none"
+  }
+ },
+ "heatmap": {
+  "label": "Demo",
+  "rows": [
+   {
+    "amplicon": "Demo_5p",
+    "label": "5′"
+   },
+   {
+    "amplicon": "Demo_3p",
+    "label": "3′"
+   }
+  ]
+ }
+}

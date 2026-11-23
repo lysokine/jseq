@@ -1,0 +1,7 @@
+library,sample,culture,amplicon,mode,reads_total,reads_on_kept_tiles,denominator,pct_net_zero,pct_designed_junction_exact,pct_frame_preserving,pct_large_indel_gt10bp,tiles_kept,tiles_total,tile_spread_kept_pts,tile_spread_all_pts,tile_qc
+5p_rep1,rep1,1,JPH3_5p,spacing,2064410,2064410,1615601,70.2078,66.5710,74.1122,4.9190,24,24,0.6490,0.6490,PASS
+5p_rep2,rep2,2,JPH3_5p,spacing,2021942,2021942,1576568,74.7758,70.6323,77.1894,3.4805,24,24,0.6922,0.6922,PASS
+5p_rep3,rep3,3,JPH3_5p,spacing,1736800,1736800,1358002,75.1215,70.8491,77.6203,3.2808,24,24,0.7877,0.7877,PASS
+3p_rep1,rep1,1,JPH3_3p,spacing,1611975,1611975,751871,66.9699,63.0232,73.1435,6.5314,24,24,1.1534,1.1534,PASS
+3p_rep2,rep2,2,JPH3_3p,spacing,1339587,1339587,716852,68.0259,63.8079,74.3286,4.9683,24,24,0.9862,0.9862,PASS
+3p_rep3,rep3,3,JPH3_3p,spacing,1341955,1341955,780315,69.1372,65.1703,75.0929,6.1731,24,24,1.4045,1.4045,PASS
