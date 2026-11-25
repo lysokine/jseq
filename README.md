@@ -5,6 +5,8 @@ Measures how often a knock-in junction has its designed length, from amplicon se
 reproduces the JPH3 analysis in Benedetti et al., *Cell* 188 (2025), Figure S1F exactly. It needs
 no one who wrote it: everything is set in two text files.
 
+![what the program does](docs/pipeline.png)
+
 ## Credit, licence and citation
 
 The `spacing` counting mode is **CRIS.py's** method. CRIS.py is by Jon P. Connelly and Shondra M.
@@ -46,6 +48,7 @@ tests/portability.sh copies the package elsewhere and runs it on synthetic data 
 tests/expected/      the numbers it compares against
 validation/          the two checks behind the method choices: that the tile rule is not
                      circular, and what the confirm policy costs
+docs/                the two figures below; make_figures.py redraws them
 ```
 
 ## What is measured
@@ -134,6 +137,9 @@ Every amplicon has `reference` (the amplicon sequence, primer to primer), `mode`
 `tile_filter` (`none`, `plateau`, or a list of tile numbers).
 
 ## The two counting modes
+
+![the two counting modes](docs/modes.png)
+
 
 ### `spacing`: CRIS.py counting
 
